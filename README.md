@@ -18,3 +18,6 @@ Para ver el proyecto en directo puedes verlo aquí
 
 ## Autor
 Carlos Almor Llopis
+
+## Contratación
+karlosalmor@gmail.com
