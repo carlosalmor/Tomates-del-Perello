@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+        <title>Tomates web</title>
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css"> 
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    </head>
+     
+    <body>
+   
+      <header>
+                  
+        <section class="container">
+              <article class="logo">
+                   <img src="img/Logos%20mayo.png"  alt="tomates logo">
+              </article>
+                               
+               <label class="icon-menu" id="botonMenu"></label>
+          
+           <nav id="nav">
+
+             <ul>
+               <li class="apartados"><a href="index.html">Home</a></li>
+               <li class="apartados"><a href="tomates.html">Tomates</a></li> 
+               <li class="apartados"><a href="mediterranea.html">Verdura Mediterránea</a></li>
+               <li class="apartados"><a href="oriental.html">Verdura Oriental</a></li> 
+               
+               <li class="apartados_desplegable"><a href="#">Idioma<span class="icon-down-open"></span></a>
+                   <ul>
+                       <li class="desplegable"><a href="index_eng.html">English</a></li>
+                   </ul>
+               </li>
+            
+               <li class="apartados"><a href="contacto.html">Contacto</a></li>
+             </ul>
+
+           </nav>
+         
+        </section>  
+         
+      </header>
+      
+      <main>
+            
+        <section id="formulario">
+           
+          <form action="enviar.php" method="post" accept-charset="ISO-8859-1">
+             
+             <!-- DATOS PERSONALES -->
+             <input type="text" id="nombre" name="nombre" placeholder="Nombre" required/>
+             <input type="email" id="email" name="email" placeholder="Email" required/>
+             <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required/>
+             
+    
+             <br>
+             <br>
+             <h3>Pedidos</h3>
+             <br>
+             
+             <!-- APARTADO CHECKBOX -->
+             <div class="cajabtncheckbox">
+                <div class="nombrecolor">Tomates</div>
+                <div class="casillacolor"><input type="checkbox" name="color" value="azul"></div>
+                
+                <div class="nombrecolor">V. Mediterránea</div>
+                <div class="casillacolor"><input type="checkbox" name="color" value="rojo"></div>
+                
+                <div class="nombrecolor">V. Oriental</div>
+                <div class="casillacolor"><input type="checkbox" name="color" value="verde"></div>
+             </div>
+
+             <!-- APARTADO CHECKBOX -->
+             <div class="cajabtncheckbox">
+              <div class="nombretalla"> Caja 3 Kilos</div>
+              <div class="casillatalla"><input type="checkbox" name="talla" value="pequeña"></div>
+              
+              <div class="nombretalla">Caja 6 Kilos</div>
+              <div class="casillatalla"><input type="checkbox" name="talla" value="mediana"></div>
+              
+              <div class="nombretalla">Caja 9 Kilos</div>
+              <div class="casillatalla"><input type="checkbox" name="talla" value="grande"></div>
+           </div>
+
+             <!-- APARTADO MENSAJE -->
+             <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+             
+             <!-- APARTADO BOTON ACEPTAR POLITICA PRIVACIDAD -->
+             <div class="privacidad">
+                 <input class="marcador" type="checkbox" id="check" name="check" required>
+             </div>
+             
+             <div class="textoprivacidad">
+                 He leido y acepto la <a href="politicaprivacidad.html">Política de privacidad</a>
+             </div>
+             
+             <!-- BOTONES ENVIAR Y LIMPIAR CAMPOS -->
+             <input type="submit" id="submit" name="submit" value="Enviar">
+             <input type="reset" id="borrar" name="borrar" value="Borrar">
+              
+          </form>
+          
+        </section>
+
+
+  
+          <section class="contacto">       
+                      <br>
+                      <br>
+                     <h5>Si quiere ponerse en contacto con el equipo de tomates de El Perelló y demás verduras, 
+                         puede hacerlo por estas vías:</h5>
+                      <br>
+                      
+                      <h5>If you want to get in touch with the El Perelló tomato and other vegetables team,
+                          you can do it in these ways: </h5>
+                      <br>
+                       
+            
+                       <h5>Teléfonos: +34  960 49 83 84 / +34 629 72 68 98</h5>
+                       <br>
+            
+                       <h5>WhatsApp: +34 629 72 68 98</h5>
+                       <br>
+            
+                       <h5>Email: perellonline@gmail.com</h5>
+                       <br>
+            
+                      <h6>Fanpage oficial de Tomates de El Perelló y demás verduras en Facebook e Instagram</h6>
+                       <br>
+
+                       <br>
+            
+            <footer>
+         
+                    <section class="textofooter">
+           
+                      <h5>Calle Isaac Peral 31. 46420 El Perelló ( Valencia ) España</h5>
+            
+                    </section>
+          
+                     <section class="textofooter2">
+                     
+                       <h5>Teléfonos: +34  960 49 83 84 / +34  629 72 68 98.    WhatsApp:  +34 629 72 68 98</h5> 
+                       <br>
+             
+                       <h5>Email: perellonline@gmail.com</h5> 
+              
+                    </section>
+          
+                    <section class="copyright">
+                       
+                      <h5>Copyright © 2022 perellonline</h5>
+                       <br>
+              
+                       <div class="avisos">
+                         
+                        <a href="politicaprivacidad.html">Política de privacidad</a>
+                        <a href="politicacookies.html">Uso de cookies</a>
+                        <a href="avisolegal.html">Avisos legales</a></li>
+                        <a href="https://www.google.es/maps/@39.2761628,-0.2762341,17z">Mapa del sitio</a>
+                        
+                      </div>
+              
+                    </section>
+                       
+                    <div class="redes">
+         	                     
+                      <a href="https://es-es.facebook.com/" target="_blank">
+                        <span class="icon-facebook-squared"></span>
+                      </a>
+                    
+                      <a href="https://www.instagram.com/" target="_blank">
+                        <span class="icon-instagram"></span>
+                      </a>
+                    
+                    </div>
+  
+             </footer>
+             
+          </section>  
+                   
+		  </main>
+       
+          <script src="js/menu.js"></script>
+          <script src="js/main.js"></script>
+        
+    </body>
+    
+</html>

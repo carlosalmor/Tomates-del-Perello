@@ -1,0 +1,913 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 768px) {   /*propiedades smartphone y tablet*/
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor-slider {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+ }
+.slidersection {
+     width: 100%;
+}
+.slidersection img {
+      width: 100%;
+}      
+.slider {
+    display: flex;
+    width: 400%;
+    height: 300px;
+}
+.slider2 {
+    display: flex;
+    width: 200%;
+    height: 300px;
+    background-image: url(../img/tomates5.gif);
+    background-size: cover;
+    background-position: center;
+}
+.slider3 {
+    display: flex;
+    width: 200%;
+    height: 300px;
+    background-image: url(../img/mediterraneadef.gif);
+    background-size: cover;
+    background-position: center;
+ }
+.slider4 {
+    display: flex;
+	flex-wrap: wrap;
+	width: 150%;
+    height: 300px;
+	background-image: url(../img/orientalc.gif);
+    background-size: cover;
+    background-position: center;
+}
+ .slider5 {
+     display: flex;
+	 width: 90%;
+     height: 200px;
+ }
+.slider5  img{
+	padding-top: 150px;
+}
+.btn-prev, .btn-next {
+     position: absolute;
+     top: 60%;
+     transform: translateY(-50%);
+     cursor: pointer;
+ }   
+.btn-prev {
+     left:60px;
+ }
+.btn-next {
+     right: 40px;
+ }
+.btn-prev img {
+     width: 50%;
+ }
+.btn-next img {
+      width: 50%;
+}
+.cajatitulo {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.cajatitulo h1 {
+    text-align: center;
+}
+.cajatitulo h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;     
+}  
+.slogan {
+    top: -150px;
+    width:400px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: relative;
+}
+.slogan h1 {
+    text-align: center;
+}
+.slogan h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;     
+}
+.cajatexto1  {
+	width: 90%;
+	height: 210px;
+	float: left;
+	margin-right: 100px;
+	margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 140px;
+}
+.cajatexto2  {
+	width: 90%;
+	height: 210px;
+	float: left;
+	margin-right: 100px;
+	margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+.cajatexto3  {
+	width: 90%;
+	height: 210px;
+	float: left;
+	margin-right: 100px;
+	margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.texto1  h3 {
+    text-align: justify;
+}
+.texto1 h3 {
+    font-size: 14px;
+    font-weight: 400;    
+}
+.productos {
+    width: 100%;
+    float: left;
+    margin: auto;
+    display: flex;
+	flex-wrap: wrap;
+    margin-bottom: -50px;
+}
+.productos h3 {
+    margin-top: 250px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #000;
+    padding-left: 20px;
+}
+.producto1 {
+	display: block;
+    width: 43%;
+    height: 200px;
+    float: left;
+    margin-top: -90px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    background-image: url(../img/tomates44.gif);
+    background-size: cover;
+    background-position: center;
+}
+.producto2 {
+    width: 43%;
+    height: 200px;
+	float: left;
+    margin-top: -90px;
+    margin-left: 35px;
+    margin-bottom: 90px;
+    background-image: url(../img/alto.gif);
+    background-size: cover;
+    background-position: center;
+}
+.producto3 {
+	display: block;
+    width: 35%;
+    height: 240px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 90px;
+    background-image: url(../img/m1b.gif);
+    background-size: 100% 90%;
+    background-position: center;
+}
+.producto4 {
+    width: 40%;
+    height: 270px;
+    float: left;
+    margin-left: 80px;
+    margin-top: -10px;
+    margin-bottom: 90px;
+    background-image: url(../img/m2b.gif);
+    background-size: 120% 92%;
+    background-position: center;
+}
+.producto5 {
+	display: block;
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    background-image: url(../img/m3b.gif);
+    background-size: 100% 96%; 
+    background-position: center;
+}
+.producto6 {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    background-image: url(../img/m4b.gif);
+    background-size: 100% 92%;
+    background-position: center;
+}
+.producto7 {
+	display: block;
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -90px;
+    margin-bottom: 90px;
+    background-image: url(../img/3.gif);
+    background-size: 100% 96%; 
+    background-position: center;
+}
+.producto8 {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 60px;
+    margin-top: -90px;
+    margin-bottom: 90px;
+    background-image: url(../img/7.gif);
+    background-size: 100% 92%;
+    background-position: center;
+}
+.producto9 {
+	display: block;
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    background-image: url(../img/5.gif);
+    background-size: 100% 96%; 
+    background-position: center;
+}
+.producto10 {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    background-image: url(../img/1.gif);
+    background-size: 100% 92%;
+    background-position: center;
+}
+.producto11 {
+	display: block;
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    background-image: url(../img/4.gif);
+    background-size: 100% 96%; 
+    background-position: center;
+}
+.producto12 {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    background-image: url(../img/6.gif);
+    background-size: 100% 92%;
+    background-position: center;
+}
+.producto13 {
+	display: block;
+    width: 37%;
+    height: 210px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    background-image: url(../img/8.gif);
+    background-size: 92% 92%; 
+    background-position: center;
+}
+.producto14 {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 90px;
+    background-image: url(../img/9.gif);
+    background-size: 100% 92%;
+    background-position: center;
+}
+.producto15 {
+	display: block;
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 90px;
+    background-image: url(../img/7.gif);
+    background-size: 100% 96%; 
+    background-position: center;
+}
+.producto16 {
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    background-image: url(../img/10.gif);
+    background-size: 100% 92%;
+    background-position: center;
+}
+/* BOTON SUBIR SCROLL */
+
+.boton {
+     width: 30px;
+     height: 30px;
+     background-color: rgba(255, 0, 177, 0.03);
+     position: fixed;
+     bottom: 45px;
+     right: 0px;
+}
+ /* FORMULARIO */
+
+#formulario {
+    width: 450px;
+    height: 400px;
+    margin: 120px auto;
+}
+form {
+    width: 400px;
+    height: 400px;
+}
+input {
+    width: 381px;
+    height: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: brown;  
+}
+.nombrecolor {
+    width: 100px;
+    height: 20px;
+    float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+}
+.casillacolor {
+    width: 100px;
+    height: 20px;
+    float: left;  
+}
+.casillacolor input {
+    width: 100px;
+}
+.cajabtncheckbox {
+    width: 200px;
+    height: 70px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+}
+.nombretalla {
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+.casillatalla {
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+.casillatalla input {
+    width: 100px;
+}
+textarea {
+    width: 381px;
+    padding: 8px;
+    height: 180px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.textoprivacidad {
+    width: 1000px;
+    height: 80px;
+    font-size: 12px;
+    margin-bottom: -60px;	
+}
+.privacidad {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-bottom: 20px;	
+}
+.privacidad input {
+    width: 12px;
+    height: 17px;
+    margin-top: -11px;
+}
+#submit {
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    float: left;
+    background-color: rgba(51, 165, 42, 0.87);
+    color: white;
+	margin-right: 40px;
+}
+#borrar {
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    float: left;
+    background-color: rgba(51, 165, 42, 0.87); 
+    color: white;
+}	
+.contacto {
+    width: 470px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.contacto h5 {
+    text-align:justify;
+}
+.contacto h5 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;     
+}
+.cajapolitica {
+	width: 90%;
+	height: 210px;
+	float: left;
+	margin-right: 100px;
+	margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+@media (min-width: 1024px) { /*propiedades desktop*/ 
+	    
+.contenedor-slider {
+    width: 100%;
+	height: 400px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    width: 400%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+ }	
+.slider img {
+    display: flex;
+    width: 95%;
+    height: 500px;
+    padding-top: 50px;
+    margin: auto;
+ }
+.slider2 {
+	display: flex;
+    width: 180%;
+    height: 450px;
+    background-size: 100% 70%;
+}
+.slider3 {
+	display: flex;
+    width: 100%;
+    height: 450px;
+}	
+.slider4 {
+	display: flex;
+    width: 100%;
+    height: 450px;
+}
+.btn-prev {
+     left:100px;
+}
+.btn-next {
+      right: 100px;
+}
+.btn-prev img {
+      width: 100%;
+}
+.btn-next img {
+      width: 100%;
+}
+.cajatitulo {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.cajatitulo h1 {
+    text-align: center;
+}
+.cajatitulo h1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;     
+}
+.slogan h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;     
+}
+.slogan {
+    position: absolute; 
+    top: -100px;
+    width: 900px;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+	position: relative;
+}
+.slogan h1 {
+    text-align: center;
+}
+.boton {
+     width: 30px;
+     height: 30px;
+     background-color: rgba(255, 0, 177, 0.03);
+     position: fixed;
+     bottom: 1px;
+     right: 10px;
+}
+.cajatexto1 {
+	width: 85%;
+	height: 130px;
+	float: left;
+	margin-right: 150px;
+	margin-left: 110px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+.cajatexto2  {
+	width: 85%;
+	height: 130px;
+	float: left;
+	margin-right: 150px;
+	margin-left: 110px;
+    margin-top: -40px;
+    margin-bottom: -20px;
+}
+.cajatexto3  {
+	width: 85%;
+	height: 210px;
+	float: left;
+	margin-right: 150px;
+	margin-left: 110px;
+    margin-top: -40px;
+    margin-bottom: -90px;
+}
+.texto1  h3 {
+	text-align: justify;
+}
+.texto1 h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;     
+}	
+.productos {
+    width: 100%;
+    float: left;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+.productos h3 {
+    margin-top: 250px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #000;
+    padding-left: 40px;
+}
+.producto1 {
+	display: block;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin-left: 90px;
+    margin-top: -50px;
+    margin-bottom: 90px;
+    background-image: url(../img/tomates44.gif);
+    background-size: cover;
+    background-position: center;
+}
+.producto2 {
+    width: 40%;
+    height: 300px;
+	float: left;
+    margin-left: 60px;
+    margin-top: -50px;
+    margin-bottom: 90px;
+    background-image: url(../img/alto.gif);
+    background-size: cover;
+    background-position: center;
+}
+.producto3 {
+    display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 300px;
+    margin-top: -10px;
+    margin-bottom: 90px;
+    background-image: url(../img/m1b.gif);
+    background-size: 90% 92%;
+    background-position: center;
+  }
+.producto4 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    background-image: url(../img/m2b.gif);
+    background-size: 110% 110%;
+    background-position: center;
+  }
+.producto5 {
+	display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/m3b.gif);
+    background-size: 95% 96.5%;
+    background-position: center;
+}
+.producto6 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/m4b.gif);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.producto7 {
+	display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    background-image: url(../img/3.gif);
+    background-size: 95% 96.5%;
+    background-position: center;
+}
+.producto8 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    background-image: url(../img/7.gif);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.producto9 {
+	display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/5.gif);
+    background-size: 95% 96.5%;
+    background-position: center;
+}
+.producto10 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/1.gif);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.producto11 {
+	display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/4.gif);
+    background-size: 95% 96.5%;
+    background-position: center;
+}
+.producto12 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/6.gif);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.producto13 {
+	display: block;
+    width: 17%;
+    height: 220px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/8.gif);
+    background-size: 92% 92%;
+    background-position: center;
+}
+.producto14 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 260px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/9.gif);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.producto15 {
+	display: block;
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/7.gif);
+    background-size: 95% 96.5%;
+    background-position: center;
+}
+.producto16 {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    background-image: url(../img/10.gif);
+    background-size: 100% 100%;
+    background-position: center;
+}
+/* FORMULARIO */
+	
+#formulario {
+    width: 400px;
+    height: 400px;
+    margin: 120px auto;
+}
+form {
+    width: 400px;
+    height: 400px;
+}
+input {
+    width: 381px;
+    height: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: brown;  
+}
+.nombrecolor {
+    width: 100px;
+    height: 20px;
+    float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.casillacolor {
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+.casillacolor input {
+    width: 100px;
+}
+.cajabtncheckbox {
+    width: 200px;
+    height: 70px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.nombretalla {
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+.casillatalla {
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+.casillatalla input {
+    width: 100px;
+}
+textarea {
+    width: 381px;
+    padding: 8px;
+    height: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.textoprivacidad {
+    width: 1000px;
+    height: 80px;
+    font-size: 14px;
+    margin-bottom: -60px;	
+}
+.privacidad {
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+.privacidad input {
+    width: 12px;
+    height: 17px;
+    margin-bottom: 50px;
+}
+#submit {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    float: left;
+    background-color: rgba(51, 165, 42, 0.87);  
+    color: white;
+    margin-right: 30px;
+}
+#borrar {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    float: left;
+    background-color:rgba(51, 165, 42, 0.87);  
+    color: white;
+}
+.contacto {
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.contacto h5 {
+    text-align:left;
+}
+.contacto h5 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;     
+}
+.cajapolitica {
+	width: 60%;
+	height: 190px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 180px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+}
