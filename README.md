@@ -10,8 +10,12 @@
 • Realizar un diseño responsive para que la pantalla se adapte a diversos dispositivos.
 • Crear el formulario de contacto y pedidos con código PHP.
 
-## URL para ver el resultado
-Para ver el proyecto en directo puedes verlo aquí  https://carlosalmor.github.io/Perellonline/
+## URL para ver el prototipo del proyecto
+Para ver el prototipo en versión Desktop y en versión Smartphone  https://we.tl/t-CYwelcUH6b
+
+
+## URL para ver el resultado del proyecto
+Para ver el proyecto en directo  https://carlosalmor.github.io/Perellonline/
 
 ## Autor
 Carlos Almor Llopis
