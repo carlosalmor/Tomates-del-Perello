@@ -1,0 +1,125 @@
+
+@media (min-width: 768px) {   /*propiedades smartphone y tablet*/
+
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff; 
+    position: fixed;
+    top: 0px;  
+    z-index:999;
+}
+.container {
+    width: 90%;
+	height: 70px;
+    margin: auto;
+}
+.logo {   
+    width:300px;
+    height: 30px;
+}
+.icon-menu {
+    margin-right: 30px;
+    color: #0d0d08;
+}
+label {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    color: #0d0d08;
+    margin-top: -13px;
+}
+nav {
+    position: fixed;
+    z-index: 100;
+    width: 70%;
+    height: 54vh;
+    background-color: #84b56d;
+	top: 70px;
+    left: 0px;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+nav ul {
+    width: 100%;
+    margin: auto;
+}
+nav ul li {
+    height: 40px;
+    border-bottom: 2px solid #080b0d ;
+    padding-top: 14px;
+    font-size: 12px;
+    color: aliceblue;
+    list-style: none;
+}
+nav ul li a {
+    color: #080b0d;
+    text-decoration: none;
+	font-weight: 500;
+}
+nav ul li a:hover {
+    color: #707b7b;
+    text-decoration: none;
+}
+.aparecer { /*para el menú*/
+    transform: translateX(0%);
+}
+nav ul ul {
+    display: none;
+    background-color: #d6dee2
+}
+nav ul li:hover {
+    color: #000;
+}
+.desplegable {
+    width: 300px;
+    height: 28px;
+}
+@media (min-width: 1024px) { /*propiedades desktop*/ 
+    
+header {
+    width: 100%;
+    height: 70px;
+}
+.icon-menu {
+    display: none;
+}
+nav ul {
+     float: left;
+}
+nav {
+    position: static;
+    transform: translateX(0px);
+    transition: none;
+    width: 700px;
+    height: 20px;
+    float: right;
+    margin-top: -20px;
+    background-color:#ffffff;
+}
+label {
+    display: none;
+}
+nav ul li {
+    display: inline-block;
+    border: none;
+    margin-left: 20px;
+}	
+nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    border-top: 0px solid #a7bbc3;
+    font-weight: 600;
+    text-align: right;
+}
+nav ul ul {
+   -webkit-box-shadow: 0 10px 13px 0 rgba(0,0,0,0.6);
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.6);
+    width: 180px;
+    top: 43px;
+    z-index: 100;
+    background-color: #ffffff;    
+    position: absolute;
+}
+}

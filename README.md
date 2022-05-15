@@ -1,6 +1,3 @@
-# Perellonline
-Proyecto Perelló online
-
 # Descripción del proyecto Perelló online 
 
 ## Para este proyecto realicé las siguientes tareas: 
@@ -14,10 +11,11 @@ Proyecto Perelló online
 • Crear el formulario de contacto y pedidos con código PHP.
 
 ## URL para ver el resultado
-Para ver el proyecto en directo puedes verlo aquí https://carlosalmor.github.io/Perellonline/
+Para ver el proyecto en directo puedes verlo aquí  https://carlosalmor.github.io/Perellonline/
 
 ## Autor
 Carlos Almor Llopis
 
 ## Contratación
 karlosalmor@gmail.com
+
