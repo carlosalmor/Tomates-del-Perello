@@ -6,8 +6,7 @@
 • Crear el logotipo, las imágenes y el texto para el contenido.
 • Editar las imágenes, los textos y la composición del contenido.
 • Diseñar el prototipado funcional de la interfaz con Adobe XD. 
-• Escribir la estructura, el diseño y la interactividad de la web 
-con código HTML5, CSS3, JavaScript y JQuery.
+• Escribir en Visual Studio Code la estructura, el diseño y la interactividad con código HTML5, CSS3, JavaScript y JQuery.
 • Crear un diseño responsive: desktop, tablet y smartphone.
 • Realizar el formulario de contacto y pedidos con código PHP
 
