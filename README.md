@@ -22,5 +22,5 @@ Para ver el proyecto en directo  https://carlosalmor.github.io/Perellonline/
 Carlos Almor Llopis
 
 ## Contratación
-karlosalmor@gmail.com
+carlosalmor@yahoo.es    
 
